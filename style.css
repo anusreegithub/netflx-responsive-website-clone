@@ -1,0 +1,198 @@
+@font-face {
+    font-family: netflix;
+    src: url("font/NetflixSans_W_Th.woff2");
+  }
+  
+  @font-face {
+    font-family: netflix-sans;
+    src: url("font/NetflixSans_W_Blk.woff2");
+  }
+  
+  @font-face {
+    font-family: netflix-h2;
+    src: url("font/NetflixSans_W_Lt.woff");
+  }
+  @font-face {
+    font-family: netflix-regular;
+    src: url("font/HandsetSansKufiArabic-Regular.woff");
+  }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+  .netflix-sans {
+    font-family: netflix-sans;
+
+  }
+  .netflix-h2 {
+    font-family: netflix-h2;
+
+  }
+  .trending {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  
+.bg-image {
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0) 15%
+  ),
+  linear-gradient(
+    360deg,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0.8965) 8.5%,
+    rgba(0, 0, 0, 0.8861) 17%,
+    rgba(0, 0, 0, 0.8688) 25.5%,
+    rgba(0, 0, 0, 0.8444) 34%,
+    rgba(0, 0, 0, 0.8132) 42.5%,
+    rgba(0, 0, 0, 0.775) 51%,
+    rgba(0, 0, 0, 0.7368) 59.5%,
+    rgba(0, 0, 0, 0.7056) 68%,
+    rgba(0, 0, 0, 0.6813) 76.5%,
+    rgba(0, 0, 0, 0.6639) 85%,
+    rgba(0, 0, 0, 0.6535) 93.5%,
+     
+    rgba(0, 0, 0, 0.65) 102%
+  ),
+  url(images/hero-image.jpg);
+height: 100vh;
+position: relative;
+clip-path: polygon(100% 0, 100% 97%, 77% 96%, 60% 96%, 45% 96%, 60% 96%, 14% 96%, 0 99%, 0 0);
+}
+
+
+
+
+header {
+  background: linear-gradient(
+      to right,
+      rgba(33, 13, 22, 1) 16%,
+      rgba(184, 40, 105, 1),
+      rgba(229, 9, 20, 1),
+      rgba(184, 40, 105, 1),
+      rgba(33, 13, 22, 1) 84%
+    );
+    border-bottom: 0.4rem solid rgb(239, 239, 239);
+
+}
+.radient-color {
+  background: radial-gradient(
+      50% 500% at 50% -420%,
+      rgba(64, 97, 231, 0.4) 80%,
+      rgba(0, 0, 0, 0.1) 100%
+    ),
+    black !important;
+  height: 70px;
+  margin-top: -30px;
+}
+  #form1::placeholder {
+    color: gray;
+    font-size: smaller;
+  }
+  
+.container h1 {
+    font-size: 1.4rem;
+    font-family: netflix-h2;
+    color: white;
+
+}
+   
+.d-grid a, .netflix-india {
+  color: rgba(255, 255, 255, 0.7);
+
+}
+
+.starts-149 {
+    font-weight: 700 !important;
+}
+
+.form-email {
+  backdrop-filter: blur(100px);
+
+}
+  @media (max-width: 575.98px) {
+    .logo {
+      width: 90px !important;
+   }
+    .hero-section {
+      width: 100% !important;
+    }
+    .get-started {
+      width: 75%;
+    }
+    
+
+  }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .logo {
+      width: 90px !important;
+  }
+    .hero-section {
+      width: 100% !important;
+    }
+    .get-started {
+      width: 75%;
+    }
+   
+  }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .logo {
+      width: 148px !important;
+     }
+     .hero-section {
+      width: 75% !important;
+    }
+    .get-started {
+      width: 100%;
+    }
+    .card {
+      width: 12rem;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .logo {
+      width: 148px !important;
+  }
+  .hero-section {
+    width: 75% !important;
+  }
+  .get-started {
+    width: 100%;
+  }
+  
+  }
+  @media (min-width: 1200px) {
+    .logo {
+      width: 148px !important;
+  }
+  .hero-section {
+    width: 45% !important;
+  }
+  .logo-link, .nav {
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+  }
+  .get-started {
+    width: 100%;
+  }
+
+  }
+  @media (min-width: 1920px) {
+    .logo {
+      width: 148px !important;
+  }
+  header {
+    padding-inline: 5rem;
+  }
+  .hero-section {
+    width: 45% !important;
+  }
+  .get-started {
+    width: 100%;
+  }
+ 
+  }
+        
